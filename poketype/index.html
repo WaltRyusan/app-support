@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>サポート｜ポケタイプ</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1c1c1e;
+    --muted: #6e6e73;
+    --line: #d2d2d7;
+    --accent: #ff9d55;
+    --card: #f5f5f7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1c1e;
+      --fg: #f5f5f7;
+      --muted: #98989d;
+      --line: #38383a;
+      --card: #2c2c2e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
+    line-height: 1.8;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px 80px; }
+  header { border-bottom: 3px solid var(--accent); padding-bottom: 20px; margin-bottom: 8px; }
+  h1 { font-size: 1.7rem; margin: 0 0 6px; }
+  .tagline { color: var(--muted); margin: 0; font-size: 0.95rem; }
+  h2 {
+    font-size: 1.2rem;
+    margin: 44px 0 14px;
+    padding-left: 12px;
+    border-left: 4px solid var(--accent);
+  }
+  p, li { font-size: 0.95rem; }
+  .cta {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 14px 28px;
+    border-radius: 10px;
+    margin: 8px 0;
+  }
+  .cta:hover { opacity: 0.88; }
+  .faq {
+    border-bottom: 1px solid var(--line);
+    padding: 4px 0;
+  }
+  .faq summary {
+    cursor: pointer;
+    font-weight: 600;
+    padding: 14px 0;
+    font-size: 0.95rem;
+    list-style: none;
+  }
+  .faq summary::-webkit-details-marker { display: none; }
+  .faq summary::before { content: "＋ "; color: var(--accent); font-weight: 700; }
+  .faq[open] summary::before { content: "− "; }
+  .faq .body { padding: 0 0 16px 1.3em; color: var(--fg); }
+  .faq .body p { margin: 0 0 10px; }
+  .card {
+    background: var(--card);
+    border-radius: 12px;
+    padding: 18px 22px;
+    margin: 20px 0;
+  }
+  .steps { padding-left: 1.3em; }
+  .steps li { margin-bottom: 10px; }
+  a { color: #0071e3; }
+  @media (prefers-color-scheme: dark) { a { color: #4da3ff; } }
+  footer {
+    margin-top: 56px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  .links { display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 16px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>ポケタイプ サポート</h1>
+  <p class="tagline">タイプ相性 弱点ホイール — 2タイプ同時に、強い・弱いがひと目でわかる</p>
+</header>
+
+<h2>お問い合わせ</h2>
+
+<p>不具合のご報告、機能のご要望、その他ご質問は、以下のフォームからお送りください。
+匿名でご利用いただけます。</p>
+
+<p><a class="cta" href="https://docs.google.com/forms/d/e/1FAIpQLScMXjAFuFwgxWXSm52-OZ4xQoUhjwCh-gC8QY8C7aBWEULcjA/viewform?usp=pp_url&amp;entry.135936132=%E3%83%9D%E3%82%B1%E3%82%BF%E3%82%A4%E3%83%97%EF%BC%88%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E7%9B%B8%E6%80%A7%E3%83%81%E3%82%A7%E3%83%83%E3%82%AB%E3%83%BC%EF%BC%89" target="_blank" rel="noopener">お問い合わせフォームを開く</a></p>
+
+<div class="card">
+  不具合のご報告の際は、<strong>お使いのiPhoneの機種</strong>、<strong>iOSのバージョン</strong>、
+  <strong>どの操作をしたときに起きたか</strong>を添えていただけると、原因の特定が早くなります。
+</div>
+
+<h2>使い方</h2>
+
+<h3>タイプから調べる</h3>
+<ol class="steps">
+  <li>ホイール画面で、調べたいタイプのアイコンをタップします。</li>
+  <li>2つ目のタイプをタップすると、複合タイプとして計算されます（4倍・0.25倍・無効まで自動計算）。</li>
+  <li>ホイール上の矢印が、18タイプすべてとの相性を同時に示します。
+  <strong>白い矢印は自分が与えるダメージ</strong>、<strong>赤い矢印は自分が受けるダメージ</strong>です。
+  矢印の形と線の太さが倍率を表します。</li>
+  <li>選択を解除するには、選んだタイプをもう一度タップします。</li>
+</ol>
+
+<h3>ポケモンから調べる</h3>
+<ol class="steps">
+  <li>検索画面を開きます。</li>
+  <li>ポケモンの名前、または図鑑番号を入力します。</li>
+  <li>候補から選ぶと、そのポケモンのタイプ相性が表示されます。複合タイプも自動で判定します。</li>
+</ol>
+
+<h3>配色を切り替える</h3>
+<p>メニューから、タイプの配色を <strong>SV（スカーレット・バイオレット）</strong> と
+<strong>旧HOME</strong> の2種類で切り替えられます。見慣れた配色でご利用ください。</p>
+
+<h2>よくあるご質問</h2>
+
+<details class="faq">
+  <summary>広告を消したい</summary>
+  <div class="body">
+    <p>アプリ内のメニューから「広告削除」をご購入いただくと、広告が表示されなくなります。
+    買い切りで、月額の費用はかかりません。</p>
+    <p>タイプ相性やポケモン検索などの機能は、ご購入の有無にかかわらずすべてお使いいただけます。</p>
+  </div>
+</details>
+
+<details class="faq">
+  <summary>購入したのに広告が消えない / 機種を変えたら購入が反映されない</summary>
+  <div class="body">
+    <p>メニューの「購入を復元」をタップしてください。購入時と<strong>同じApple IDでサインインしている</strong>ことをご確認ください。</p>
+    <p>それでも反映されない場合は、アプリを完全に終了して再度起動してみてください。
+    解決しない場合はお問い合わせフォームからご連絡ください。</p>
+  </div>
+</details>
+
+<details class="faq">
+  <summary>ポケモンを検索しても表示されない</summary>
+  <div class="body">
+    <p>ポケモンの情報は外部の公開データベース（PokeAPI）から取得しています。
+    ネットワークに接続されているかご確認ください。</p>
+    <p>また、ごく最近追加されたポケモンや一部のリージョンフォームは、
+    データベース側に情報が未登録の場合があります。</p>
+  </div>
+</details>
+
+<details class="faq">
+  <summary>複合タイプの倍率が想定と違う</summary>
+  <div class="body">
+    <p>本アプリは<strong>タイプ相性のみ</strong>を計算しています。
+    特性（もらいび・ふゆう・そうしょく など）、テラスタル、
+    技の追加効果による相性の変化は反映していません。</p>
+    <p>複合タイプの倍率は、2つのタイプの倍率を掛け合わせた値です
+    （例: 4倍 = 2倍 × 2倍、0.25倍 = 0.5倍 × 0.5倍）。
+    どちらか一方が無効の場合は、全体が無効になります。</p>
+  </div>
+</details>
+
+<details class="faq">
+  <summary>トラッキングの許可を求められた / 許可したくない</summary>
+  <div class="body">
+    <p>広告の関連性を高めるためのものです。<strong>「許可しない」を選んでも、
+    アプリのすべての機能をそのままお使いいただけます。</strong></p>
+    <p>選択は iOS の「設定」→「プライバシーとセキュリティ」→「トラッキング」からいつでも変更できます。</p>
+  </div>
+</details>
+
+<details class="faq">
+  <summary>テラスタルには対応していますか</summary>
+  <div class="body">
+    <p>現在のバージョンでは未対応です。今後のアップデートで対応を検討しています。</p>
+  </div>
+</details>
+
+<details class="faq">
+  <summary>iPadでも使えますか</summary>
+  <div class="body">
+    <p>現在は iPhone 専用です。iPad でもインストールはできますが、
+    レイアウトが最適化されていません。iPad への対応は今後のバージョンで検討しています。</p>
+  </div>
+</details>
+
+<h2>動作環境</h2>
+
+<p>iOS 18.1 以降の iPhone（縦向き専用）</p>
+
+<footer>
+  <div class="links">
+    <a href="./privacy.html">プライバシーポリシー</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScMXjAFuFwgxWXSm52-OZ4xQoUhjwCh-gC8QY8C7aBWEULcjA/viewform" target="_blank" rel="noopener">お問い合わせ</a>
+  </div>
+  <p>本アプリは非公式のファンアプリです。株式会社ポケモン、任天堂株式会社とは一切関係ありません。
+  アプリ内で使用しているタイプ名等は各権利者の登録商標です。</p>
+  <p>This app is a fan-made app and is not affiliated with The Pokémon Company or Nintendo.
+  All Pokémon-related names are registered trademarks of their respective owners.</p>
+</footer>
+
+</div>
+</body>
+</html>
