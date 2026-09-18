@@ -4,67 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>アプリサポート</title>
-<style>
-  :root {
-    --bg: #ffffff;
-    --fg: #1c1c1e;
-    --muted: #6e6e73;
-    --line: #d2d2d7;
-    --accent: #ff9d55;
-    --card: #f5f5f7;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #1c1c1e;
-      --fg: #f5f5f7;
-      --muted: #98989d;
-      --line: #38383a;
-      --card: #2c2c2e;
-    }
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--fg);
-    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
-    line-height: 1.8;
-    -webkit-text-size-adjust: 100%;
-  }
-  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
-  header { border-bottom: 3px solid var(--accent); padding-bottom: 20px; margin-bottom: 8px; }
-  h1 { font-size: 1.7rem; margin: 0 0 6px; }
-  .tagline { color: var(--muted); margin: 0; font-size: 0.95rem; }
-  h2 {
-    font-size: 1.2rem;
-    margin: 44px 0 14px;
-    padding-left: 12px;
-    border-left: 4px solid var(--accent);
-  }
-  p, li { font-size: 0.95rem; }
-  .app {
-    display: block;
-    background: var(--card);
-    border-radius: 12px;
-    padding: 20px 24px;
-    margin: 14px 0;
-    text-decoration: none;
-    color: inherit;
-  }
-  .app:hover { opacity: 0.85; }
-  .app .name { font-weight: 600; font-size: 1.05rem; }
-  .app .desc { color: var(--muted); font-size: 0.9rem; margin-top: 4px; }
-  .sub { font-size: 0.85rem; margin-top: 10px; }
-  a { color: #0071e3; }
-  @media (prefers-color-scheme: dark) { a { color: #4da3ff; } }
-  footer {
-    margin-top: 56px;
-    padding-top: 20px;
-    border-top: 1px solid var(--line);
-    color: var(--muted);
-    font-size: 0.85rem;
-  }
-</style>
+<link rel="stylesheet" href="./style.css">
 </head>
 <body>
 <div class="wrap">
@@ -79,7 +19,25 @@
 <a class="app" href="./poketype/">
   <div class="name">ポケタイプ</div>
   <div class="desc">タイプ相性 弱点ホイール — 2タイプ同時に、強い・弱いがひと目でわかる</div>
-  <div class="sub"><span>サポート</span> ／ <a href="./poketype/privacy.html">プライバシーポリシー</a></div>
+  <div class="sub">サポート ／ <a href="./poketype/privacy.html">プライバシーポリシー</a></div>
+</a>
+
+<a class="app" href="./ikabuki/">
+  <div class="name">イカブキ</div>
+  <div class="desc">Splatoon3 ブキ一覧＆サブスペ クイズ</div>
+  <div class="sub">サポート ／ <a href="./ikabuki/privacy.html">プライバシーポリシー</a></div>
+</a>
+
+<a class="app" href="./srbtcg/">
+  <div class="name">サーモンランガイド</div>
+  <div class="desc">バイトチームコンテストの Wave 管理と音声記録</div>
+  <div class="sub">サポート ／ <a href="./srbtcg/privacy.html">プライバシーポリシー</a></div>
+</a>
+
+<a class="app" href="./chordtone/">
+  <div class="name">コードトーン</div>
+  <div class="desc">ギターのコードトーンを指板で覚える</div>
+  <div class="sub">サポート ／ <a href="./chordtone/privacy.html">プライバシーポリシー</a></div>
 </a>
 
 <h2>お問い合わせ</h2>
@@ -87,8 +45,14 @@
 <p>不具合のご報告、機能のご要望は、各アプリのサポートページに掲載している
 フォームからお送りください。匿名でご利用いただけます。</p>
 
+<h2>利用規約</h2>
+
+<p>各アプリには、Apple が定める
+<a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">標準のライセンス契約（EULA）</a>
+が適用されます。</p>
+
 <footer>
-  <p>各アプリは非公式のファンアプリを含みます。権利者との関係については、
+  <p>一部のアプリは非公式のファンアプリです。権利者との関係については、
   それぞれのサポートページに記載しています。</p>
 </footer>
 
