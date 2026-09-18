@@ -18,34 +18,79 @@
 <p>比留間 龍三（以下「当方」）は、iOS アプリ「コードトーン」（以下「本アプリ」）における
 利用者の情報の取り扱いについて、以下のとおり定めます。</p>
 
-<div class="card">
-  <strong>本アプリは、いかなる情報も収集しません。</strong>
-  外部への通信を行わず、端末の機能（マイク・カメラ・位置情報など）も使用しません。
-  広告も表示しません。
+<h2>1. 当方が直接収集する情報</h2>
+
+<p><strong>当方は、氏名・メールアドレス・電話番号・住所などの個人情報を一切収集しません。</strong>
+本アプリには会員登録の仕組みがなく、利用者を特定する情報を当方のサーバーへ送信することもありません。
+当方は本アプリのためのサーバーを保有していません。</p>
+
+<h2>2. 端末内に保存される情報</h2>
+
+<p>本アプリは、以下の情報を利用者の端末内にのみ保存します。これらが外部へ送信されることはありません。</p>
+
+<div class="table-scroll">
+<table>
+  <tr><th>保存する内容</th><th>目的</th></tr>
+  <tr><td>広告除去の購入状態</td><td>起動直後から広告の表示を抑制するため</td></tr>
+  <tr><td>広告の最終表示時刻</td><td>広告の表示間隔を空けるため</td></tr>
+  <tr><td>アプリの起動回数、各種表示済みフラグ</td><td>初回利用者への案内やレビュー依頼を繰り返し表示しないため</td></tr>
+</table>
 </div>
 
-<h2>1. 収集する情報</h2>
+<p>これらは本アプリを端末から削除すると同時に消去されます。</p>
 
-<p><strong>当方は、本アプリを通じて利用者のいかなる情報も収集しません。</strong></p>
+<h2>3. 広告配信について</h2>
+
+<p>本アプリは、広告配信のために第三者配信事業者である
+<strong>Google LLC の Google AdMob</strong> を利用しています。
+広告の配信にあたり、AdMob は以下の情報を取得します。</p>
+
+<div class="table-scroll">
+<table>
+  <tr><th>取得される情報</th><th>目的</th></tr>
+  <tr><td>広告識別子（IDFA）</td><td>広告の配信および効果測定</td></tr>
+  <tr><td>IPアドレス</td><td>端末のおおよその所在地の推定</td></tr>
+  <tr><td>広告の表示・タップ等の操作履歴</td><td>広告配信の最適化</td></tr>
+  <tr><td>アプリの利用状況、動作性能に関する情報</td><td>分析および広告配信の最適化</td></tr>
+  <tr><td>クラッシュ情報</td><td>不具合の原因調査および改善</td></tr>
+</table>
+</div>
+
+<p>これらの情報の取り扱いは Google のプライバシーポリシーに従います。詳細は以下をご確認ください。</p>
 
 <ul>
-  <li>氏名・メールアドレス・電話番号・住所などの個人情報を収集しません</li>
-  <li>会員登録の仕組みはありません</li>
-  <li>利用状況や操作履歴を記録・送信しません</li>
-  <li>広告識別子（IDFA）を取得しません</li>
+  <li><a href="https://policies.google.com/privacy?hl=ja" target="_blank" rel="noopener">Google プライバシーポリシー</a></li>
+  <li><a href="https://policies.google.com/technologies/partner-sites?hl=ja" target="_blank" rel="noopener">Google のサービスを使用するサイトやアプリから収集した情報の Google による使用</a></li>
 </ul>
 
-<p>当方は本アプリのためのサーバーを保有しておらず、利用者の情報を受け取る手段がありません。</p>
+<h3>広告のパーソナライズを拒否する方法</h3>
 
-<h2>2. 外部への通信</h2>
+<p>本アプリの初回起動時に、トラッキングの許可を求めるダイアログ
+（App Tracking Transparency）が表示されます。ここで「求めないでください」を選択すると、
+広告識別子を用いたトラッキングは行われません。</p>
 
-<p><strong>本アプリは、機能の提供のために外部と通信しません。</strong>
-インターネットに接続していない状態でも、すべての機能をご利用いただけます。</p>
+<p>この選択は、後からいつでも
+<strong>iOS の「設定」→「プライバシーとセキュリティ」→「トラッキング」</strong>
+から変更できます。</p>
 
-<p>お問い合わせフォームを開く際にのみ、外部サイト（Google フォーム）へ移動します。
-この操作は利用者が明示的に選択した場合にのみ行われます。</p>
+<div class="card">
+  <strong>トラッキングを拒否しても、本アプリのすべての機能をそのままご利用いただけます。</strong>
+  拒否した場合も広告自体は表示されますが、利用者の関心に基づかない広告に切り替わります。
+</div>
 
-<h2>3. 端末の機能の使用</h2>
+<h3>広告を表示しない方法</h3>
+
+<p>本アプリ内でアドオン「広告除去」（買い切り）をご購入いただくと、広告は表示されなくなります。</p>
+
+<h2>4. 外部サービスへの通信</h2>
+
+<p>コードの表示・フォームの計算・発音といった本アプリの主な機能は、すべて端末内で完結します。
+コードのデータはアプリに同梱されており、外部から取得することはありません。</p>
+
+<p>通信が発生するのは、広告の配信のために広告配信事業者と通信する場合と、
+お問い合わせフォームを開く際に外部サイト（Google フォーム）へ移動する場合のみです。</p>
+
+<h2>5. 端末の機能の使用について</h2>
 
 <p>本アプリは、以下の機能を<strong>一切使用しません</strong>。
 そのため、これらの許可を求めることもありません。</p>
@@ -54,22 +99,20 @@
   <li>マイク・カメラ</li>
   <li>位置情報</li>
   <li>連絡先・カレンダー・写真</li>
-  <li>トラッキング（App Tracking Transparency の許可も求めません）</li>
 </ul>
 
 <p>音の再生には端末のスピーカーを使用しますが、これは音を出力するだけで、
 音を取得するものではありません。</p>
 
-<h2>4. 広告について</h2>
+<h2>6. アプリ内課金について</h2>
 
-<p><strong>本アプリは広告を表示しません。</strong>
-広告配信事業者への情報提供も行っていません。</p>
+<p>購入手続きは、すべて Apple の App Store を通じて行われます。
+クレジットカード番号などの決済情報は Apple が管理し、
+<strong>当方が決済情報を取得・保有することはありません。</strong></p>
 
-<h2>5. アプリ内課金について</h2>
+<p>当方が確認できるのは「購入が有効であるか」という状態のみです。</p>
 
-<p><strong>本アプリにはアプリ内課金がありません。</strong></p>
-
-<h2>6. お問い合わせフォームについて</h2>
+<h2>7. お問い合わせフォームについて</h2>
 
 <p>本アプリからは、Google フォームを利用したお問い合わせ窓口へのリンクを設けています。
 フォームにご入力いただいた内容は、お問い合わせへの対応および本アプリの改善のためにのみ利用します。</p>
@@ -77,19 +120,18 @@
 <p>フォームは匿名でご利用いただけます。返信をご希望の場合に限り、
 連絡先をご自身の判断でご記入ください。フォームを通じて取得した情報を第三者へ提供することはありません。</p>
 
-<h2>7. お子様のプライバシーについて</h2>
+<h2>8. お子様のプライバシーについて</h2>
 
-<p>本アプリは情報を一切収集しないため、お子様を含むすべての利用者から
-情報を取得することはありません。</p>
+<p>本アプリは、13歳未満のお子様を対象として設計されたものではなく、
+お子様から意図的に情報を収集することはありません。</p>
 
-<h2>8. 本ポリシーの変更</h2>
+<h2>9. 本ポリシーの変更</h2>
 
 <p>本ポリシーの内容は、法令の改正や本アプリの機能変更に応じて予告なく変更することがあります。
-将来的に広告やアプリ内課金を導入する場合は、本ポリシーを改定したうえで、
-アプリの更新情報にてお知らせします。
+重要な変更を行う場合は、本アプリの更新情報または本ページにてお知らせします。
 変更後の内容は、本ページに掲載した時点から適用されます。</p>
 
-<h2>9. お問い合わせ先</h2>
+<h2>10. お問い合わせ先</h2>
 
 <p>本ポリシーおよび本アプリに関するお問い合わせは、
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScMXjAFuFwgxWXSm52-OZ4xQoUhjwCh-gC8QY8C7aBWEULcjA/viewform" target="_blank" rel="noopener">お問い合わせフォーム</a>
@@ -101,35 +143,40 @@
 
 <p>Effective: September 19, 2026</p>
 
-<p>Ryuzo Hiruma ("we") operates the iOS application "Chord Tone" ("the App").</p>
+<p>Ryuzo Hiruma ("we") operates the iOS application "Chord Tone" ("the App").
+This policy describes how information is handled in the App.</p>
 
-<p><strong>The App collects no information whatsoever.</strong></p>
+<p><strong>We do not collect any personally identifiable information.</strong>
+The App has no account system and we do not operate any server that receives user data.</p>
 
-<ul>
-  <li>We do not collect personally identifiable information of any kind</li>
-  <li>The App has no account system</li>
-  <li>The App does not record or transmit usage or interaction data</li>
-  <li>The App does not access the advertising identifier (IDFA)</li>
-</ul>
+<p>The App stores the following data locally on your device only, and never transmits it:
+your ad-removal purchase status, the timestamp of the last advertisement shown, and
+launch counts and display flags. All of this is deleted when you uninstall the App.</p>
 
-<p>We operate no server for the App and therefore have no means of receiving user data.</p>
+<p>The App uses <strong>Google AdMob</strong>, a third-party advertising service provided by Google LLC,
+which may collect your advertising identifier (IDFA), IP address, advertising interaction data,
+product interaction and performance data, and crash logs. This data is handled in accordance with
+the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</p>
 
-<p><strong>The App does not communicate with any external service to provide its features</strong>
-and works entirely offline. It navigates to an external site only when you explicitly choose
-to open the contact form.</p>
+<p>You may decline tracking via the App Tracking Transparency prompt shown on first launch,
+or at any time under <strong>Settings → Privacy &amp; Security → Tracking</strong> in iOS.
+Declining tracking does not restrict any feature of the App. Purchasing the "Remove Ads"
+in-app purchase stops advertisements from being displayed.</p>
+
+<p>Chord display, form calculation and audio playback all run entirely on your device;
+chord data is bundled with the App and never fetched from anywhere. Network communication
+occurs only for advertising and when you choose to open the contact form.</p>
 
 <p><strong>The App uses no device capabilities</strong> such as the microphone, camera, location,
-contacts, calendar, or photos, and does not present an App Tracking Transparency prompt.
-It uses the speaker to produce sound, which outputs audio but never captures it.</p>
+contacts, calendar, or photos. It uses the speaker to produce sound, which outputs audio but
+never captures it.</p>
 
-<p><strong>The App displays no advertisements and contains no in-app purchases.</strong></p>
+<p>All in-app purchases are processed by Apple. We never receive or store your payment information.</p>
 
-<p>Since the App collects no information, we do not knowingly collect information from
-children or any other user.</p>
+<p>The App is not directed to children under 13, and we do not knowingly collect information from children.</p>
 
-<p>We may update this policy without prior notice. Should advertising or in-app purchases be
-introduced in the future, this policy will be revised and the change announced in the app's
-release notes. Changes take effect when posted on this page. For inquiries, please use our
+<p>We may update this policy without prior notice. Changes take effect when posted on this page.
+For inquiries, please use our
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScMXjAFuFwgxWXSm52-OZ4xQoUhjwCh-gC8QY8C7aBWEULcjA/viewform" target="_blank" rel="noopener">contact form</a>.</p>
 
 </div>
