@@ -6,10 +6,15 @@ GitHub Pages で公開している。App Store Connect に登録するURLはこ�
 
 ## URL
 
-| アプリ | 種別 | URL |
-|-------|------|-----|
-| ポケタイプ | サポート | https://waltryusan.github.io/app-support/poketype/ |
-| ポケタイプ | プライバシーポリシー | https://waltryusan.github.io/app-support/poketype/privacy.html |
+| アプリ | ディレクトリ | サポートURL |
+|-------|------------|------------|
+| ポケタイプ | `poketype/` | https://waltryusan.github.io/app-support/poketype/ |
+| イカブキ | `ikabuki/` | https://waltryusan.github.io/app-support/ikabuki/ |
+| サーモンランガイド | `srbtcg/` | https://waltryusan.github.io/app-support/srbtcg/ |
+| コードトーン | `chordtone/` | https://waltryusan.github.io/app-support/chordtone/ |
+| カリンバ譜面作成 | `kalimba/` | https://waltryusan.github.io/app-support/kalimba/ |
+
+プライバシーポリシーは、いずれも同じディレクトリの `privacy.html`。
 
 ## 構成
 
