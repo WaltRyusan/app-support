@@ -13,7 +13,7 @@ GitHub Pages で公開している。App Store Connect に登録するURLはこ�
 | サーモンランガイド | `srbtcg/` | https://waltryusan.github.io/app-support/srbtcg/ |
 | コードトーン | `chordtone/` | https://waltryusan.github.io/app-support/chordtone/ |
 | カリンバ譜面作成 | `kalimba/` | https://waltryusan.github.io/app-support/kalimba/ |
-| Tempomodoro | `metronome/` | https://waltryusan.github.io/app-support/metronome/ |
+| Tempomodoro | `tempomodoro/` | https://waltryusan.github.io/app-support/tempomodoro/ |
 
 プライバシーポリシーは、いずれも同じディレクトリの `privacy.html`。
 
